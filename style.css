@@ -1,0 +1,62 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    text-decoration: none;
+}
+header{
+    background-image: url(/img/Frame.png);
+    height: 916px;
+}
+.bar{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 200px;
+}
+.bar div input{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+.search{
+     border-top: 5px;
+     border-color: azure;
+}
+.bar div ul{
+    display: flex;
+    gap: 40px;
+}
+.link-search{
+    display: flex;
+    gap: 150px;
+}
+.bar div ul a{
+    color: white;
+}
+.body{
+    display: flex;
+    justify-content: space-around;
+}
+.Space{
+    height: 50px;
+}
+.health-text{
+    background-color: red;
+}
+.book{
+   background-color:blue;
+   height: 40px;
+   width: 100px;
+}
+.contact-us{
+   background-color:blue;
+   height: 40px;
+   width: 100px;
+}
+.book-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
