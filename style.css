@@ -43,15 +43,27 @@ header{
     height: 50px;
 }
 .health-text{
-    background-color: red;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    gap: 50px;
 }
 .book{
-   background-color:blue;
+   background-color:rgba(255, 111, 97, 1);
    height: 40px;
-   width: 100px;
+   width: 180px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 9px;
+   border-radius: 20px;
 }
 .contact-us{
-   background-color:blue;
+   background-color:transparent;
+   display: flex;
+   align-items: center;
+   justify-content: center;
    height: 40px;
    width: 100px;
 }
@@ -59,4 +71,88 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+.book-container div p{
+   
+}
+.or{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+.health-text div p{
+    color: white;
+    width: 300px;
+}
+.health-text-h1{
+    background-color: rgba(46, 204, 113, 0.6);
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 240px;
+}
+.health-text-h1 h1{
+    color: white;
+    font-size: 13px;
+}
+.book h4{
+    color: white;
+    font-size: 15px;
+}
+.contact-us h4{
+    color: white;
+    font-size: 15px;
+}
+.image{
+    height: 359px;
+}
+.health-text div h2{
+    color: white;
+    font-size: 27px;
+}
+.clock-container{
+    display: flex;
+    gap: 30px;
+    margin-left: 175px;
+    margin-top: 90px;
+}
+.clock{
+    background-color: rgba(94, 224, 136, 1);
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+.clock-text h1{
+    color: white;
+    font-size: 20px;
+}
+.clock-text h2{
+    color: white;
+    font-size: 16px;
+}
+.clock-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+.clock-doctors{
+    background-color: red;
+    display: flex;
+
+}
+.doctors-avai{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
 }
