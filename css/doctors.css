@@ -86,3 +86,50 @@
      justify-content: center;
      align-items: end;
 }
+.PRICING{
+    margin-top: 120px;
+    margin-left: 150px;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px ;
+    background-color: rgba(94, 224, 136, 1);
+    border: 2px solid rgb(57, 180, 96);
+}
+.PRICING h1{
+    color: white;
+}
+.pricing-text{
+    display: flex;
+    gap: 500px;
+    width: 1250px;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+.pricing-text div h1{
+    color: rgba(52, 152, 219, 1);
+}
+.pricing-text-1{
+    width: 900px;
+}
+.space{
+    height: 60px;
+}
+.pricing-pannel{
+    background-color: red;
+    width: 200px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    padding: 30px;
+    gap: 20px;
+}
+.line{
+    height: 1px;
+    width: 200px;
+    background-color: aqua;
+}
