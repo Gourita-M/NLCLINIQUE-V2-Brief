@@ -62,27 +62,3 @@
     align-items: end;
     height: 150px;
 }
-.expert{
-    color: rgba(52, 152, 219, 1);
-    font-size: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 40px;
-}
-.expert h2{
-    font-size: 32px;
-}
-.doctors-image{
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     margin-top: 50px;
-     margin-bottom: 200px;
-}
-.see-our{
-     display: flex;
-     justify-content: center;
-     align-items: end;
-}
