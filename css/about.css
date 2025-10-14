@@ -1,0 +1,51 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    text-decoration: none;
+}
+.bar{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 200px;
+}
+.bar div input{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+}
+.search{
+     border-top: 5px;
+     border-color: rgb(0, 0, 0);
+}
+.bar div ul{
+    display: flex;
+    gap: 40px;
+}
+.link-search{
+    display: flex;
+    gap: 150px;
+}
+.bar div ul a{
+    color: rgb(0, 0, 0);
+}
+.doctor-boy{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.aboutus-container{
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.aboutus h1{
+    color: white;
+}
+.aboutus{
+    
+}
