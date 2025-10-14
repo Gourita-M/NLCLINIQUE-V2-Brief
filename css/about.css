@@ -17,8 +17,18 @@
     color: rgb(0, 0, 0);
 }
 .search{
-     border-top: 5px;
+     border-radius: 9px;
      border-color: rgb(0, 0, 0);
+     height: 30px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.search input{
+    border: 1px solid ;
+    height: 35px;
+    width: 180px;
+    border-radius: 8px;
 }
 .bar div ul{
     display: flex;
@@ -32,20 +42,65 @@
     color: rgb(0, 0, 0);
 }
 .doctor-boy{
+    width: 600px;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 .aboutus-container{
-    background-color: red;
+    background-image: url(/img/Frame\ 1000001998\ \(1\).png);
     display: flex;
     justify-content: space-around;
     padding-top: 50px;
     padding-bottom: 70px;
+    gap: 0px;
+    width: 1381px;
+    margin-left: 70px;
+
 }
 .aboutus h1{
     color: white;
 }
 .aboutus{
-    
+    background-color: rgba(94, 224, 136, 1);
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border-bottom-right-radius: 0px;
+    font-size: 10px;
+    height: 40px;
+    border: 2px solid rgb(57, 180, 96);
+}
+.aboutus-container div h2{
+    color: rgba(52, 152, 219, 1);
+    font-size: 50px;
+}
+.text-aboutus{
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+.text-aboutus div button{
+    background-color: brown;
+    border-radius: 25px;
+    height: 60px;
+    color: white;
+    width: 230px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+.recover-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color: red;
+    height: 800px;
 }

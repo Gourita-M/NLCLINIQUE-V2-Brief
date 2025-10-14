@@ -24,6 +24,12 @@ header{
      border-top: 5px;
      border-color: azure;
 }
+.search input{
+    border: 1px solid ;
+    height: 35px;
+    width: 180px;
+    border-radius: 8px;
+}
 .bar div ul{
     display: flex;
     gap: 40px;
