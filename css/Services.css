@@ -58,8 +58,11 @@ body{
     font-size: 10px;
     height: 40px;
     border: 2px solid rgb(57, 180, 96);
+    margin-top: 30px;
+    margin-left: 150px;
 }
-.text-aboutus{
+.text-aboutus1{
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: end;
