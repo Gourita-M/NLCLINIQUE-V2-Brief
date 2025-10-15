@@ -4,6 +4,9 @@
     border: 0px;
     text-decoration: none;
 }
+body{
+    background-color: rgba(161, 139, 139, 0.127);
+}
 .bar{
     height: 100px;
     display: flex;
@@ -61,4 +64,145 @@
     justify-content: center;
     align-items: end;
     height: 150px;
+}
+.see-our{
+     display: flex;
+     justify-content: center;
+     align-items: end;
+}
+.PRICING{
+    margin-top: 120px;
+    margin-left: 150px;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px ;
+    background-color: rgba(94, 224, 136, 1);
+    border: 2px solid rgb(57, 180, 96);
+}
+.PRICING h1{
+    color: white;
+}
+.pricing-text{
+    display: flex;
+    gap: 200px;
+    width: 1250px;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+.pricing-text div h1{
+    color: rgba(52, 152, 219, 1);
+}
+.pricing-text-1{
+    width: 1500px;
+}
+.space{
+    height: 60px;
+}
+.pricing-pannel{
+    width: 250px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+    border-radius: 25px;
+    border: 1px solid rgba(225, 225, 225, 1);
+    background-color: white;
+}
+.line{
+    height: 1px;
+    width: 200px;
+    background-color: rgba(200, 200, 200, 1);
+}
+.join-text{
+    color: rgba(38, 119, 188, 1) ;
+}
+.pricing-pannel div p{
+    color: black;
+    font-size: 13px;
+}
+.prix-text{
+    color: rgba(38, 119, 188, 1) ;
+}
+.prix-text-container{
+    display: flex;
+    position: relative;
+}
+.prix-text-container span{
+    position: absolute;
+    left: 80px;
+    top: 16px;
+}
+.Features-text{
+    color: rgba(38, 119, 188, 1) ;
+}
+.circle{
+    background-color: green;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+.features-container{
+    font-size: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    width: 220px;
+}
+.features-container div{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.pricing-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+    width: 120px;
+    font-size: 12px;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 111, 97, 1);
+    cursor: pointer;
+}
+.pricing-link a{
+    color: rgba(255, 111, 97, 1);
+}
+.pricing-link2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: rgba(255, 111, 97, 1);
+    cursor: pointer;
+}
+.pricing-link2 a{
+    color: rgb(255, 255, 255);
+}
+.pricing-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.h{
+    color: rgba(150, 150, 150, 1);
+}
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.pricing-container2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }

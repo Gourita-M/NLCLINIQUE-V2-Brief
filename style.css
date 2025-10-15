@@ -6,7 +6,7 @@
 }
 header{
     background-image: url(./img/Frame.png);
-    height: 916px;
+    height: 740px;
 }
 .bar{
     height: 100px;
@@ -73,6 +73,8 @@ header{
    justify-content: center;
    height: 40px;
    width: 100px;
+   border: 1px solid white;
+   border-radius: 20px;
 }
 .book-container{
     display: flex;
@@ -129,6 +131,7 @@ header{
     gap: 30px;
     margin-left: 175px;
     margin-top: 60px;
+    height:100px;
 }
 .clock{
     background-color: rgba(94, 224, 136, 1);
@@ -154,14 +157,13 @@ header{
     justify-content: center;
 }
 .clock-doctors{
-    background-color: red;
     display: flex;
     gap: 345px;
 
 }
 .doctors-avai{
     background-color: rgba(255, 255, 255, 1);
-    height: 300px;
+    height: 230px;
     width: 465px;
     border-top-left-radius: 20px ;
     border-top-right-radius: 20px;
@@ -170,22 +172,62 @@ header{
     display: flex;
     gap: 90px;
     justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .search-box{
-    background-color: aqua;
     height: 40px;
-    width: 300px;
+    width: 200px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 11px;
 }
 .search-box-container{
-    background-color: yellowgreen;
     display: flex;
     gap: 25px;
     justify-content: center;
+    align-items: center;
     margin-top: 30px;
+  
 }
 .search-box h1{
-    font-size: 17px;
-    
+    font-size: 14px;
+    left: 10px;
+    color: rgba(150, 150, 150, 1) ;
+}
+.line{
+    background-color: yellowgreen;
+    height: 2px;
+    width: 120px;
+}
+.check-doctors div h1{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+.check-container{
+    background-color: rgba(255, 111, 97, 1);
+    height: 40px;
+    width: 210px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.check-doctors{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+.health-text div h2{
+    font-size: 40px;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
