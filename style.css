@@ -171,3 +171,21 @@ header{
     gap: 90px;
     justify-content: center;
 }
+.search-box{
+    background-color: aqua;
+    height: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+.search-box-container{
+    background-color: yellowgreen;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.search-box h1{
+    font-size: 17px;
+    
+}
