@@ -206,3 +206,41 @@ footer{
     align-items: center;
     gap: 5px;
 }
+
+.directors{
+    position: relative;
+
+}
+.picture1{
+    position: absolute;
+    left: 0px;
+    top: 20px;
+
+}
+.picture2{
+    position: absolute;
+    left: 42px;
+    top: 16px;
+}
+.picture3{
+    position: absolute;
+    left: 46px;
+    top: 20px;
+}
+.directors-text{
+    margin-top: 50px;
+}
+.directors-text div{
+    border: 1px solid;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.directors-text div p{
+    font-size: 18px;
+    text-align: start;
+}

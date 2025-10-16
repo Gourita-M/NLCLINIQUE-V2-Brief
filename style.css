@@ -20,12 +20,12 @@ header{
     background-color: transparent;
     color: rgb(255, 255, 255);
 }
-.search{
+.search1{
      border-top: 5px;
-     border-color: azure;
+     
 }
-.search input{
-    border: 1px solid ;
+.search1 input{
+    border: 1px solid white;
     height: 35px;
     width: 180px;
     border-radius: 8px;
@@ -65,6 +65,7 @@ header{
    align-items: center;
    gap: 9px;
    border-radius: 20px;
+   cursor: pointer;
 }
 .contact-us{
    background-color:transparent;
@@ -75,12 +76,20 @@ header{
    width: 100px;
    border: 1px solid white;
    border-radius: 20px;
+   cursor: pointer;
+}
+.contact-us a{
+    color: white;
+    font-size: 18px;
 }
 .book-container{
     display: flex;
     justify-content: center;
     align-items: center;
     
+}
+.book a{
+    color: white;
 }
 .book-container div p{
    
@@ -343,7 +352,6 @@ header{
     height: 35px;
     font-size: 15px;
     border-radius: 15px;
-    background-color: rgba(255, 111, 97, 1);
     cursor: pointer;
 }
 .pricing-link2 a{
@@ -790,6 +798,7 @@ footer{
     width: 190px;
     border-radius: 30px;
     gap: 20px;
+    cursor: pointer;
 }
 .more-about a{
     color: white;
@@ -871,4 +880,42 @@ footer{
 .more-plan div h1{
     font-size: 25px;
     color: white;
+}
+
+.directors{
+    position: relative;
+
+}
+.picture1{
+    position: absolute;
+    left: 0px;
+    top: 20px;
+
+}
+.picture2{
+    position: absolute;
+    left: 42px;
+    top: 16px;
+}
+.picture3{
+    position: absolute;
+    left: 46px;
+    top: 20px;
+}
+.directors-text{
+    margin-top: 50px;
+}
+.directors-text div{
+    border: 1px solid;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.directors-text div p{
+    font-size: 18px;
+    text-align: start;
 }

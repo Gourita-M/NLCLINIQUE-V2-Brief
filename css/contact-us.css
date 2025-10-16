@@ -21,11 +21,11 @@ header{
 }
 .bar div input{
     background-color: transparent;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 .search{
      border-top: 5px;
-     border-color: azure;
+     border-color: rgb(0, 0, 0);
 }
 .search input{
     border: 1px solid ;
