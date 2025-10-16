@@ -214,6 +214,7 @@ footer{
     position: relative;
     height: 600px;
     background-color: rgba(245, 248, 250, 1);
+    margin-top: 80px;
 }
 .footer-container{
     display: flex;
