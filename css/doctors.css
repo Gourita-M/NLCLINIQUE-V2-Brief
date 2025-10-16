@@ -218,6 +218,7 @@
 footer{
     position: relative;
     height: 600px;
+    background-color: rgba(245, 248, 250, 1);
 }
 .footer-container{
     display: flex;
@@ -308,4 +309,100 @@ footer{
     position: absolute;
     left: 78px;
     bottom: 65px;
+}
+
+/* doctors profile */
+.doctors-profile{
+    background-color: rgb(255, 255, 255);
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+.doctor-image{
+    background-color: rgba(245, 248, 250, 1);
+    height: 600px;
+    width: 362px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    border-radius: 30px;
+}
+.doctor-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.doctor-text h1{
+    color: rgba(0, 0, 255, 0.65);
+    font-size: 20px;
+}
+.doctor-text h2{
+    color: rgba(255, 111, 97, 1);
+}
+
+
+.appointment-book{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.appointment-book-text{
+    position: absolute;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    left: 220px;
+    top: 80px;
+    font-size: 20px;
+}
+.appointment-book-text div{
+    background-color: rgba(227, 250, 255, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 350px;
+    border-radius: 35px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.appointment-book-text h1{
+    color: white;
+}
+.appointment-book-text p{
+    color: white;
+}
+.doctors-contactus{
+         display: flex;
+         justify-content: center;
+         margin: 80px;
+}
+.doctors-contactus div{
+         background-color: rgba(255, 111, 97, 1);
+         display: flex;
+         gap: 20px;
+         justify-content: center;
+         align-items: center;
+         padding: 10px;
+         border-radius: 25px;
+         height: 30px;
+         width: 170px;
+         cursor: pointer;
+}
+.doctors-contactus a{
+    color: white;
+    font-size: 20px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }

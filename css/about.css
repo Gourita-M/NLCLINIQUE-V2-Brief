@@ -105,6 +105,8 @@
 footer{
     position: relative;
     height: 600px;
+    background-color: rgba(245, 248, 250, 1);
+    margin-top: 80px;
 }
 .footer-container{
     display: flex;
@@ -195,4 +197,12 @@ footer{
     position: absolute;
     left: 78px;
     bottom: 65px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }

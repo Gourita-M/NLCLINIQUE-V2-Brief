@@ -209,7 +209,7 @@ header{
 .check-container{
     background-color: rgba(255, 111, 97, 1);
     height: 40px;
-    width: 210px;
+    width: 270px;
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -276,9 +276,9 @@ header{
     border: 1px solid rgba(225, 225, 225, 1);
     background-color: white;
 }
-.line{
+.line1{
     height: 1px;
-    width: 200px;
+    width: 80px;
     background-color: rgba(200, 200, 200, 1);
 }
 .join-text{
@@ -568,6 +568,7 @@ header{
 footer{
     position: relative;
     height: 600px;
+    background-color: rgba(245, 248, 250, 1);
 }
 .footer-container{
     display: flex;
@@ -746,4 +747,128 @@ footer{
         cursor: pointer;
         margin-left: 27px;
         
+}
+
+.doctors-profile{
+    background-color: rgb(255, 255, 255);
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+.doctor-image{
+    background-color: rgba(245, 248, 250, 1);
+    height: 600px;
+    width: 362px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    border-radius: 30px;
+}
+.doctor-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.doctor-text h1{
+    color: rgba(0, 0, 255, 0.65);
+    font-size: 20px;
+}
+.doctor-text h2{
+    color: rgba(255, 111, 97, 1);
+}
+
+.more-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 111, 97, 1);
+    height: 50px;
+    width: 190px;
+    border-radius: 30px;
+    gap: 20px;
+}
+.more-about a{
+    color: white;
+    font-size: 16px;
+}
+
+.more-about2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 111, 97, 1);
+    height: 50px;
+    width: 190px;
+    border-radius: 30px;
+    gap: 20px;
+    cursor: pointer;
+}
+.more-about2 a{
+    color: white;
+    font-size: 16px;
+}
+.more-about2-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.appointment-book{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.appointment-book-text{
+    position: absolute;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    left: 220px;
+    top: 80px;
+    font-size: 20px;
+}
+.appointment-book-text div{
+    background-color: rgba(227, 250, 255, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 350px;
+    border-radius: 35px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.appointment-book-text h1{
+    color: white;
+}
+.appointment-book-text p{
+    color: white;
+}
+
+.more-plan{
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.more-plan div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 111, 97, 1);
+    height: 50px;
+    width: 250px;
+    border-radius: 30px;
+    cursor: pointer;
+    gap: 20px;
+}
+.more-plan div h1{
+    font-size: 25px;
+    color: white;
 }
