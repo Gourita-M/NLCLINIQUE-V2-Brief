@@ -4,6 +4,9 @@
     border: 0px;
     text-decoration: none;
 }
+body{
+    background-color: rgba(149, 146, 143, 0.134);
+}
 header{
     background-image: url(./img/Frame.png);
     height: 200px;
@@ -42,17 +45,268 @@ header{
     color: rgb(0, 0, 0);
 }
 .get-in-touch{
-    background-color: blue;
     display: flex;
     justify-content: center;
+    height: 560px;
 }
 .in-touch-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 300px;
-    width: 300px;
+    height: 480px;
+    width: 400px;
     gap: 20px;
+    background-color: white;
+    border-radius: 30px;
+}
+.in-touch-container h1{
+        font-size: 40px;
+        color: rgb(131, 125, 125);
+}
+.in-touch-container h2{
+        font-size: 19px;
+}
+.in-touch-container div div input{
+        height: 40px;
+        text-align: center;
+        border: 1px solid rgba(0, 0, 255, 0.453);
+        border-radius: 8px;
+}
+.name-last{
+        display: flex;
+        gap: 35px;
+}
+.email input{
+        height: 40px;
+        width: 350px;
+        text-align: start;
+        border: 1px solid rgba(0, 0, 255, 0.453);
+        border-radius: 8px;
+}
+.msg input{
+    height: 150px;
+        width: 350px;
+        text-align: start;
+        border: 1px solid rgba(0, 0, 255, 0.453);
+        border-radius: 10px;
+}
+.touch-send{
+        background-color: rgba(255, 111, 97, 1);
+        height: 40px;
+        width: 310px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px;
+        cursor: pointer;
+}
+.touch-contact{
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+}
+.touch-contact div h1{
+        font-size: 40px;
+        color: rgba(26, 23, 218, 0.606);
+}
+.touch-contact div p{
+        font-size: 16px;
+}
+.feedback{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.feedback div{
+    text-align: center;
+}
+.feedback div h1{
+    font-size: 30px;
+}
+.feedback div h5{
+    font-size: 14px;
+}
+.touch-send{
+    color: white;
+    font-size: 14px;
+}
+.appointment-container{
+    background-image: url(../img/Frame.png);
+    height: 915px;
+    width: 1445px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45px;
+}
+.appointment{
+    background-color: white;
+    height: 650px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 50px 50px 50px;
+    border-radius: 20px;
+}
+.appointment div h1{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+.contac-book{
+    background-color: rgba(45, 193, 45, 0.665);
+    height: 5%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    border: 1px solid green;
+    margin-left: 30px;
+}
+.appointment div h2{
+    color: rgba(40, 37, 221, 0.698);
+    font-size: 25px;
+    margin-left: 25px;
+}
+.appointment div div input{
     border: 1px solid;
-    border-radius: ;
+    height: 40px;
+    width: 350px;
+    border-radius: 10px;
+}
+.contac-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    
+}
+.contac-input p{
+    position: absolute;
+    text-decoration: solid;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    margin-left: 29px;
+}
+.description input{
+    border: 1px solid;
+    height: 150px;
+    width: 740px;
+    border-radius: 10px;
+}
+.touch-send2{
+        background-color: rgba(255, 111, 97, 1);
+        height: 40px;
+        width: 745px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px;
+        cursor: pointer;
+        margin-left: 27px;
+        
+}
+footer{
+    position: relative;
+    height: 600px;
+}
+.footer-container{
+    display: flex;
+    gap: 300px;
+}
+.logo-email{
+    display: flex;
+    gap: 30px;
+    height: 400px;
+    flex-direction: column;
+    margin-left: 60px;
+}
+.email-subscribe{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.email-subscribe div{
+    width: 170px;
+    height: 50px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 1px solid blue;
+    color: rgba(62, 52, 193, 0.715);
+    cursor: pointer;
+}
+.email-subscribe input{
+    width: 270px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    border: 1px solid blue;
+}
+.logo-email div p{
+    color: rgba(0, 0, 255, 0.656);
+    font-size: 16px;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 60px;
+}
+.footer-links div div{
+    display: flex;
+    height: 250px;
+    width: 800px;
+    gap: 25px;
+}
+.quick-links div{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 800px;
+}
+.quick-links{
+    display: flex;
+    height: 200px;
+    width: 800px;
+}
+.quick-links div ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.quick-links div h1{
+    color: rgba(42, 17, 186, 0.774);
+}
+.location{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.location h1{
+    color: rgba(0, 0, 255, 0.571);
+}
+.location p{
+    color: rgba(0, 0, 0, 0.485);
+}
+.footer-icons{
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    left: 78px;
+    bottom: 65px;
 }
