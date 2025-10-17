@@ -75,6 +75,10 @@
     height: 40px;
     border: 2px solid rgb(57, 180, 96);
 }
+.bar div ul a:hover{
+    color: rgba(231, 135, 135, 0.752);
+    
+}
 .aboutus-container div h2{
     color: rgba(52, 152, 219, 1);
     font-size: 50px;

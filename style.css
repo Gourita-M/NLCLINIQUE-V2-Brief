@@ -43,6 +43,10 @@ header{
     display: flex;
     gap: 40px;
 }
+.bar1 div ul a:hover{
+    color: rgba(244, 167, 167, 0.726);
+    
+}
 .link-search{
     display: flex;
     gap: 150px;
@@ -681,6 +685,9 @@ footer{
     flex-direction: column;
     gap: 20px;
 }
+.quick-links div ul a:hover{
+    color: rgb(125, 111, 111);
+}
 .quick-links div h1{
     color: rgba(42, 17, 186, 0.774);
 }
@@ -734,8 +741,8 @@ footer{
 }
 .contac-book{
     background-color: rgba(45, 193, 45, 0.665);
-    height: 5%;
-    width: 30%;
+    height: 7%;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;

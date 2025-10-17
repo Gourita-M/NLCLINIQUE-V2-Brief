@@ -165,10 +165,14 @@ header{
     font-size: 25px;
     font-family: fantasy;
 }
+.bar div ul a:hover{
+    color: rgba(231, 135, 135, 0.752);
+    
+}
 .contac-book{
     background-color: rgba(45, 193, 45, 0.665);
-    height: 5%;
-    width: 30%;
+    height: 7%;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -218,6 +218,10 @@
 .h{
     color: rgba(150, 150, 150, 1);
 }
+.bar div ul a:hover{
+    color: rgba(231, 135, 135, 0.752);
+    
+}
 .pricing-container{
     display: flex;
     justify-content: center;
