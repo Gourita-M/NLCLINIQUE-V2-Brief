@@ -54,7 +54,6 @@
     border-radius: 25px;
     border-bottom-right-radius: 0px;
     font-size: 10px;
-    font-family: fantasy;
     height: 40px;
     border: 2px solid rgb(57, 180, 96);
 }
@@ -67,7 +66,6 @@
 .expert{
     color: rgba(52, 152, 219, 1);
     font-size: 15px;
-    font-family: fantasy;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,7 +74,6 @@
 }
 .expert h2{
     font-size: 32px;
-    font-family: fantasy;
 }
 .doctors-image{
      display: flex;
@@ -144,7 +141,6 @@
 .pricing-pannel div p{
     color: black;
     font-size: 13px;
-    font-family: fantasy;
 }
 .prix-text{
     color: rgba(38, 119, 188, 1) ;
@@ -169,7 +165,6 @@
 }
 .features-container{
     font-size: 7px;
-    font-family: fantasy;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -187,7 +182,6 @@
     justify-content: center;
     height: 35px;
     font-size: 15px;
-    font-family: fantasy;
     border-radius: 15px;
     border: 1px solid rgba(255, 111, 97, 1);
     cursor: pointer;
@@ -201,7 +195,6 @@
     justify-content: center;
     height: 35px;
     font-size: 15px;
-    font-family: fantasy;
     border-radius: 15px;
     background-color: rgba(255, 111, 97, 1);
     cursor: pointer;
@@ -254,7 +247,6 @@ footer{
     width: 170px;
     height: 50px;
     font-size: 11px;
-    font-family: fantasy;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -273,7 +265,6 @@ footer{
 .logo-email div p{
     color: rgba(0, 0, 255, 0.656);
     font-size: 16px;
-    font-family: fantasy;
 }
 .footer-links{
     display: flex;
@@ -354,7 +345,6 @@ footer{
 .doctor-text h1{
     color: rgba(0, 0, 255, 0.65);
     font-size: 20px;
-    font-family: fantasy;
 }
 .doctor-text h2{
     color: rgba(255, 111, 97, 1);
@@ -375,7 +365,6 @@ footer{
     left: 220px;
     top: 80px;
     font-size: 20px;
-    font-family: fantasy;
 }
 .appointment-book-text div{
     background-color: rgba(227, 250, 255, 1);
@@ -386,7 +375,6 @@ footer{
     width: 350px;
     border-radius: 35px;
     font-size: 15px;
-    font-family: fantasy;
     cursor: pointer;
 }
 .appointment-book-text h1{
@@ -415,7 +403,6 @@ footer{
 .doctors-contactus a{
     color: white;
     font-size: 20px;
-    font-family: fantasy;
 }
 
 .icon{

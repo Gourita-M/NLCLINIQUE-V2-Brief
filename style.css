@@ -1,10 +1,3 @@
-@font-face {
-  font-family: 'Heebo';
-  src: url('./fonts/Heebo.ttf') format('ttf');
-  font-weight: normal;
-  font-style: normal;
-}
-
 * {
     padding: 0px;
     margin: 0px;
@@ -95,7 +88,6 @@ header{
 .contact-us a{
     color: white;
     font-size: 18px;
-    font-family: fantasy;
 }
 .book-container{
     display: flex;
@@ -105,7 +97,7 @@ header{
 }
 .book a{
     color: white;
-    font-family: fantasy;
+    
 }
 .or{
     width: 40px;
@@ -117,7 +109,6 @@ header{
 .health-text div p{
     color: white;
     width: 300px;
-    font-family: fantasy , sans-serif;
     font-size: 17px;
 }
 .health-text-h1{
@@ -134,17 +125,14 @@ header{
 .health-text-h1 h1{
     color: white;
     font-size: 16px;
-    font-family: fantasy;
 }
 .book h4{
     color: white;
     font-size: 15px;
-    font-family: fantasy;
 }
 .contact-us h4{
     color: white;
     font-size: 15px;
-    font-family: fantasy;
 }
 .image{
     height: 359px;
@@ -152,7 +140,6 @@ header{
 .health-text div h2{
     color: white;
     font-size: 27px;
-    font-family: fantasy
 }
 .clock-container{
     display: flex;
@@ -173,12 +160,10 @@ header{
 .clock-text h1{
     color: white;
     font-size: 20px;
-    font-family: fantasy;
 }
 .clock-text h2{
     color: white;
     font-size: 16px;
-    font-family: fantasy;
 }
 .clock-text{
     display: flex;
@@ -226,7 +211,6 @@ header{
     font-size: 14px;
     left: 10px;
     color: rgba(150, 150, 150, 1) ;
-    font-family: fantasy;
 }
 .line{
     background-color: yellowgreen;
@@ -236,7 +220,6 @@ header{
 .check-doctors div h1{
     color: rgb(255, 255, 255);
     font-size: 16px;
-    font-family: fantasy;
 }
 .check-container{
     background-color: rgba(255, 111, 97, 1);
@@ -255,7 +238,6 @@ header{
 }
 .health-text div h2{
     font-size: 40px;
-    font-family: fantasy;
 }
 .icon{
     display: flex;
@@ -320,7 +302,6 @@ header{
 .pricing-pannel div p{
     color: black;
     font-size: 13px;
-    font-family: fantasy;
 }
 .prix-text{
     color: rgba(38, 119, 188, 1) ;
@@ -345,7 +326,6 @@ header{
 }
 .features-container{
     font-size: 7px;
-    font-family: fantasy;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -364,7 +344,6 @@ header{
     height: 38px;
     width: 120px;
     font-size: 12px;
-    font-family: fantasy;
     border-radius: 30px;
     border: 1px solid rgba(255, 111, 97, 1);
     cursor: pointer;
@@ -378,7 +357,6 @@ header{
     justify-content: center;
     height: 35px;
     font-size: 15px;
-    font-family: fantasy;
     border-radius: 15px;
     cursor: pointer;
 }
@@ -414,7 +392,6 @@ header{
     border-radius: 25px;
     border-bottom-right-radius: 0px;
     font-size: 10px;
-    font-family: fantasy;
     height: 40px;
     border: 2px solid rgb(57, 180, 96);
     margin-top: 30px;
@@ -438,7 +415,6 @@ header{
     border-radius: 25px;
     border-bottom-right-radius: 0px;
     font-size: 10px;
-    font-family: fantasy;
     height: 40px;
     border: 2px solid rgb(57, 180, 96);
 }
@@ -451,7 +427,6 @@ header{
 .expert2{
     color: rgba(52, 152, 219, 1);
     font-size: 15px;
-    font-family: fantasy;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -460,7 +435,6 @@ header{
 }
 .expert2 h2{
     font-size: 32px;
-    font-family: fantasy;
 }
 .doctors-image2{
      display: flex;
@@ -528,7 +502,6 @@ header{
 .pricing-pannel2 div p{
     color: black;
     font-size: 13px;
-    font-family: fantasy;
 }
 .prix-text2{
     color: rgba(38, 119, 188, 1) ;
@@ -553,7 +526,6 @@ header{
 }
 .features-container2{
     font-size: 7px;
-    font-family: fantasy;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -571,7 +543,6 @@ header{
     justify-content: center;
     height: 35px;
     font-size: 15px;
-    font-family: fantasy;
     border-radius: 15px;
     border: 1px solid rgba(255, 111, 97, 1);
     cursor: pointer;
@@ -585,7 +556,6 @@ header{
     justify-content: center;
     height: 35px;
     font-size: 15px;
-    font-family: fantasy;
     border-radius: 15px;
     background-color: rgba(255, 111, 97, 1);
     cursor: pointer;
@@ -636,7 +606,6 @@ footer{
     width: 170px;
     height: 50px;
     font-size: 11px;
-    font-family: fantasy;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -655,7 +624,6 @@ footer{
 .logo-email div p{
     color: rgba(0, 0, 255, 0.656);
     font-size: 16px;
-    font-family: fantasy;
 }
 .footer-links{
     display: flex;
@@ -737,7 +705,6 @@ footer{
 .appointment div h1{
     color: rgb(255, 255, 255);
     font-size: 25px;
-    font-family: fantasy;
 }
 .contac-book{
     background-color: rgba(45, 193, 45, 0.665);
@@ -755,7 +722,6 @@ footer{
     color: rgba(40, 37, 221, 0.698);
     font-size: 25px;
     margin-left: 25px;
-    font-family: fantasy;
 }
 .appointment div div input{
     border: 1px solid;
@@ -828,7 +794,6 @@ footer{
 .doctor-text h1{
     color: rgba(0, 0, 255, 0.65);
     font-size: 20px;
-    font-family: fantasy;
 }
 .doctor-text h2{
     color: rgba(255, 111, 97, 1);
@@ -848,7 +813,6 @@ footer{
 .more-about a{
     color: white;
     font-size: 16px;
-    font-family: fantasy;
 }
 
 .more-about2{
@@ -865,7 +829,6 @@ footer{
 .more-about2 a{
     color: white;
     font-size: 16px;
-    font-family: fantasy;
 }
 .more-about2-container{
     display: flex;
@@ -888,7 +851,6 @@ footer{
     left: 220px;
     top: 80px;
     font-size: 20px;
-    font-family: fantasy;
 }
 .appointment-book-text div{
     background-color: rgba(227, 250, 255, 1);
@@ -899,7 +861,6 @@ footer{
     width: 350px;
     border-radius: 35px;
     font-size: 15px;
-    font-family: fantasy;
     cursor: pointer;
 }
 .appointment-book-text h1{
@@ -928,7 +889,6 @@ footer{
 }
 .more-plan div h1{
     font-size: 25px;
-    font-family: fantasy;
     color: white;
 }
 
@@ -967,6 +927,5 @@ footer{
 }
 .directors-text div p{
     font-size: 18px;
-    font-family: fantasy;
     text-align: start;
 }

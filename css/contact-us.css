@@ -62,12 +62,10 @@ header{
 }
 .in-touch-container h1{
         font-size: 40px;
-        font-family: fantasy;
         color: rgb(131, 125, 125);
 }
 .in-touch-container h2{
         font-size: 19px;
-        font-family: fantasy;
 }
 .in-touch-container div div input{
         height: 40px;
@@ -112,12 +110,10 @@ header{
 }
 .touch-contact div h1{
         font-size: 40px;
-        font-family: fantasy;
         color: rgba(26, 23, 218, 0.606);
 }
 .touch-contact div p{
         font-size: 16px;
-        font-family: fantasy;
 }
 .feedback{
     display: flex;
@@ -129,16 +125,13 @@ header{
 }
 .feedback div h1{
     font-size: 30px;
-    font-family: fantasy;
 }
 .feedback div h5{
     font-size: 14px;
-    font-family: fantasy;
 }
 .touch-send{
     color: white;
     font-size: 14px;
-    font-family: fantasy;
 }
 .appointment-container{
     background-image: url(../img/Frame.png);
@@ -163,7 +156,6 @@ header{
 .appointment div h1{
     color: rgb(255, 255, 255);
     font-size: 25px;
-    font-family: fantasy;
 }
 .bar div ul a:hover{
     color: rgba(231, 135, 135, 0.752);
@@ -184,7 +176,6 @@ header{
 .appointment div h2{
     color: rgba(40, 37, 221, 0.698);
     font-size: 25px;
-    font-family: fantasy;
     margin-left: 25px;
 }
 .appointment div div input{
@@ -256,7 +247,6 @@ footer{
     width: 170px;
     height: 50px;
     font-size: 11px;
-    font-family: fantasy;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -275,7 +265,6 @@ footer{
 .logo-email div p{
     color: rgba(0, 0, 255, 0.656);
     font-size: 16px;
-    font-family: fantasy;
 }
 .footer-links{
     display: flex;
