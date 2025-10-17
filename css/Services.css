@@ -43,6 +43,7 @@ body{
 }
 .bar div ul a{
     color: rgb(0, 0, 0);
+    font-family: fantasy;
 }
 .aboutus h1{
     color: white;
@@ -56,10 +57,10 @@ body{
     border-radius: 25px;
     border-bottom-right-radius: 0px;
     font-size: 10px;
+    font-family: fantasy;
     height: 40px;
     border: 2px solid rgb(57, 180, 96);
     margin-top: 30px;
-    margin-left: 150px;
 }
 .text-aboutus1{
     margin-top: 30px;
@@ -127,6 +128,7 @@ body{
 .pricing-pannel div p{
     color: black;
     font-size: 13px;
+    font-family: fantasy;
 }
 .prix-text{
     color: rgba(38, 119, 188, 1) ;
@@ -151,6 +153,7 @@ body{
 }
 .features-container{
     font-size: 7px;
+    font-family: fantasy;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -169,6 +172,7 @@ body{
     height: 38px;
     width: 120px;
     font-size: 12px;
+    font-family: fantasy;
     border-radius: 30px;
     border: 1px solid rgba(255, 111, 97, 1);
     cursor: pointer;
@@ -182,6 +186,7 @@ body{
     justify-content: center;
     height: 35px;
     font-size: 15px;
+    font-family: fantasy;
     border-radius: 15px;
     background-color: rgba(255, 111, 97, 1);
     cursor: pointer;
@@ -237,6 +242,7 @@ footer{
     width: 170px;
     height: 50px;
     font-size: 11px;
+    font-family: fantasy;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -255,6 +261,7 @@ footer{
 .logo-email div p{
     color: rgba(0, 0, 255, 0.656);
     font-size: 16px;
+    font-family: fantasy;
 }
 .footer-links{
     display: flex;
