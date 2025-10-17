@@ -30,7 +30,7 @@
     width: 180px;
     border-radius: 8px;
 }
-.bar div ul{
+.bar div ul li{
     display: flex;
     gap: 40px;
 }
@@ -38,7 +38,7 @@
     display: flex;
     gap: 150px;
 }
-.bar div ul a{
+.bar div ul li a{
     color: rgb(0, 0, 0);
     font-family: fantasy;
 }
@@ -74,7 +74,7 @@
     height: 40px;
     border: 2px solid rgb(57, 180, 96);
 }
-.bar div ul a:hover{
+.bar div ul li a:hover{
     color: rgba(231, 135, 135, 0.752);
     
 }
@@ -176,7 +176,7 @@ footer{
     height: 200px;
     width: 800px;
 }
-.quick-links div ul{
+.quick-links div ul li{
     display: flex;
     flex-direction: column;
     gap: 20px;

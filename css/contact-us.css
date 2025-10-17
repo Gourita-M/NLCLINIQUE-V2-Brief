@@ -8,7 +8,6 @@ body{
     background-color: rgba(149, 146, 143, 0.134);
 }
 header{
-    background-image: url(../img/Frame.png);
     height: 200px;
 }
 .bar{
@@ -33,7 +32,7 @@ header{
     width: 180px;
     border-radius: 8px;
 }
-.bar div ul{
+.bar div ul li{
     display: flex;
     gap: 40px;
 }
@@ -41,7 +40,7 @@ header{
     display: flex;
     gap: 150px;
 }
-.bar div ul a{
+.bar div ul li a{
     color: rgb(0, 0, 0);
     font-family: fantasy;
 }
@@ -157,7 +156,7 @@ header{
     color: rgb(255, 255, 255);
     font-size: 25px;
 }
-.bar div ul a:hover{
+.bar div ul li a:hover{
     color: rgba(231, 135, 135, 0.752);
     
 }
@@ -289,7 +288,7 @@ footer{
     height: 200px;
     width: 800px;
 }
-.quick-links div ul{
+.quick-links div ul li{
     display: flex;
     flex-direction: column;
     gap: 20px;
