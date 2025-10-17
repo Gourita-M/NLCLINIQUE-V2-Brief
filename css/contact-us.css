@@ -8,7 +8,7 @@ body{
     background-color: rgba(149, 146, 143, 0.134);
 }
 header{
-    background-image: url(./img/Frame.png);
+    background-image: url(../img/Frame.png);
     height: 200px;
 }
 .bar{

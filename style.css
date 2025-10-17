@@ -715,7 +715,7 @@ footer{
 /* appointment */
 
 .appointment-container{
-    background-image: url(../img/Frame.png);
+    background-image: url(./img/Frame.png);
     height: 915px;
     width: 1445px;
     margin-top: 80px;
